@@ -1,0 +1,24 @@
+name: feature-analysis-app
+channels:
+  - conda-forge
+  - bioconda
+  - plotly
+  - defaults
+dependencies:
+  - dash==2.10.2
+  - dash-bootstrap-components
+  - dash_cytoscape==0.2.0
+  - flask
+  - numpy>=1.18.5,<1.25.0
+  - pandas
+  - plotly
+  - scipy
+  - scikit-learn>=1.3.1
+  - strenum
+  - pip
+  - pip:
+    - dash-extensions==1.*
+    - dash-mantine-components==0.12
+    - dash-ag-grid>=2.2
+    - dash-iconify
+    - geom-median

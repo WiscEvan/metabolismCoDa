@@ -1,0 +1,12 @@
+name: explainer-dashboard-app
+channels:
+  - conda-forge
+  - bioconda
+  - plotly
+  - defaults
+dependencies:
+  - explainerdashboard
+  - pip
+  - pip:
+    - explainerdashboard 
+
